@@ -3,7 +3,7 @@ theme: slate
 copyright: Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, forked from the original by the <a href="/switch-guide/about">NH Discord Server</a>. This fork maintained by <a href="https://github.com/Wi-Fi-Labs" target="_blank">PS! Wi-Fi Labs</a>.
 site_description: Switch CFW Guide.
 site_author: NH Discord Server.
-site_url: https://nh-server.github.io/switch-guide/
+site_url: https://wi-fi-labs.github.io/switch-guide/
 
 nav:
     - Home: index.md
