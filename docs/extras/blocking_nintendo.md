@@ -2,6 +2,9 @@
 
 This page will help you set up a method to block all communication with Nintendo. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
 
+!!! danger "Note"
+    This step is generally NOT recommended unless you are using emuNAND!
+
 ### Instructions (AMS DNS redirection)
 You can configure Atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be [found here](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md). The section below will help you set up DNS redirection on your emummc. Note that this will only apply when you are using cfw.
 

@@ -9,29 +9,30 @@ RCM (short for ReCovery Mode) is a mode for the switch that allows nintendo to s
 
 ----
 
-### emuNAND CFW (**Recommended for new users**)
+### sysNAND CFW  (**Recommended for new users**)
+
+This is for the people who don't have an 64GB microSD card or larger, or who don't need/want an emuNAND. 
+
+!!!tip "Why sysNAND? Didn't the guide used to suggest emuNAND?"
+	
+	- None of the tools we use for Pok&eacute;mon games are believed to carry any risk of a console ban, and the extra utility provided by being able to take the console online makes your life easier and often is required for the tools to work as intended.
+	- Lower ban risk due to user error. Accidentally connecting your emuNAND online _will_ result in a console ban, as will many of the activities that one is often required for. Not having one also discourages potentially bannable behavior. Unless you explicitly need one, it is not recommended due to the increased risk and space requirements.
+
+&nbsp;
+
+#### [Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)
+-----
+
+### emuNAND CFW
 
 !!!tip "What's needed for emuNAND"
 	- A microSD card that's 64GB or larger
 
 	#### Pros of using emuNAND over sysNAND CFW:
 	
-	- Using homebrew applications and CFW features in a safe environment that won't connect to Nintendo services, while the sysNAND can be used online.
+	- Using homebrew applications and CFW features in an environment that won't connect to Nintendo services, while the sysNAND can be used online.
 	- Allowing users on patched Switches using Caffeine to update their emuNAND to latest and use it online, keeping sysNAND at a lower vulnerable version.
 
 &nbsp;
 
 #### [Continue to Entering RCM (emuNAND) <i class="fa fa-arrow-circle-right fa-lg"></i>](emummc/entering_rcm.md)
------
-
-
-### sysNAND CFW
-
-This is for the people who don't have an 64GB microSD card or larger, or who don't need/want an emuNAND. 
-
-!!!note "Note"
-	If you set up an emuNAND you may still have CFW on your sysNAND if you choose to use it. You do not have to follow the guide linked below; all the files are the same, you simply select "sysNAND CFW" from Hekate/Nyx.
-
-&nbsp;
-
-#### [Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)
