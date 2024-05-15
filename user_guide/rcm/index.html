@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="NH Discord Server.">
-        <link rel="canonical" href="https://nh-server.github.io/switch-guide/user_guide/rcm/">
+        <link rel="canonical" href="https://wi-fi-labs.github.io/switch-guide/user_guide/rcm/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
         <title>RCM - NH Switch Guide</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -50,27 +50,23 @@
 </li>
                                     
 <li>
-    <a href="../emummc/entering_rcm/" class="dropdown-item">Entering RCM</a>
+    <a href="../sysnand/sd_preparation/" class="dropdown-item">SD preparations</a>
 </li>
                                     
 <li>
-    <a href="../emummc/sending_payload/" class="dropdown-item">Sending a payload</a>
+    <a href="../sysnand/entering_rcm/" class="dropdown-item">Entering RCM</a>
 </li>
                                     
 <li>
-    <a href="../emummc/partitioning_sd/" class="dropdown-item">Partitioning the SD</a>
+    <a href="../sysnand/sending_payload/" class="dropdown-item">Sending a payload</a>
 </li>
                                     
 <li>
-    <a href="../emummc/sd_preparation/" class="dropdown-item">SD preparations</a>
+    <a href="../sysnand/making_essential_backups/" class="dropdown-item">Making essential backups</a>
 </li>
                                     
 <li>
-    <a href="../emummc/making_emummc/" class="dropdown-item">Making the emuMMC</a>
-</li>
-                                    
-<li>
-    <a href="../emummc/launching_cfw/" class="dropdown-item">Launching CFW</a>
+    <a href="../sysnand/launching_cfw/" class="dropdown-item">Launching CFW</a>
 </li>
                                 </ul>
                             </li>
@@ -155,7 +151,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../emummc/entering_rcm/" class="nav-link">
+                                <a rel="next" href="../sysnand/sd_preparation/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -197,7 +193,19 @@
 </ul>
 </div>
 <hr />
-<h3 id="emunand-cfw-recommended-for-new-users">emuNAND CFW (<strong>Recommended for new users</strong>)</h3>
+<h3 id="sysnand-cfw-recommended-for-new-users">sysNAND CFW (<strong>Recommended for new users</strong>)</h3>
+<p>This is for the people who don't have an 64GB microSD card or larger, or who don't need/want an emuNAND. </p>
+<div class="admonition tip">
+<p class="admonition-title">Why sysNAND? Didn't the guide used to suggest emuNAND?</p>
+<ul>
+<li>None of the tools we use for Pok&eacute;mon games are believed to carry any risk of a console ban, and the extra utility provided by being able to take the console online makes your life easier and often is required for the tools to work as intended.</li>
+<li>Lower ban risk due to user error. Accidentally connecting your emuNAND online <em>will</em> result in a console ban, as will many of the activities that one is often required for. Not having one also discourages potentially bannable behavior. Unless you explicitly need one, it is not recommended due to the increased risk and space requirements.</li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<h4 id="continue-to-sd-preparations-sysnand-cfw"><a href="../sysnand/sd_preparation/">Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i></a></h4>
+<hr />
+<h3 id="emunand-cfw">emuNAND CFW</h3>
 <div class="admonition tip">
 <p class="admonition-title">What's needed for emuNAND</p>
 <ul>
@@ -205,27 +213,18 @@
 </ul>
 <h4 id="pros-of-using-emunand-over-sysnand-cfw">Pros of using emuNAND over sysNAND CFW:</h4>
 <ul>
-<li>Using homebrew applications and CFW features in a safe environment that won't connect to Nintendo services, while the sysNAND can be used online.</li>
+<li>Using homebrew applications and CFW features in an environment that won't connect to Nintendo services, while the sysNAND can be used online.</li>
 <li>Allowing users on patched Switches using Caffeine to update their emuNAND to latest and use it online, keeping sysNAND at a lower vulnerable version.</li>
 </ul>
 </div>
 <p>&nbsp;</p>
-<h4 id="continue-to-entering-rcm-emunand"><a href="../emummc/entering_rcm/">Continue to Entering RCM (emuNAND) <i class="fa fa-arrow-circle-right fa-lg"></i></a></h4>
-<hr />
-<h3 id="sysnand-cfw">sysNAND CFW</h3>
-<p>This is for the people who don't have an 64GB microSD card or larger, or who don't need/want an emuNAND. </p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>If you set up an emuNAND you may still have CFW on your sysNAND if you choose to use it. You do not have to follow the guide linked below; all the files are the same, you simply select "sysNAND CFW" from Hekate/Nyx.</p>
-</div>
-<p>&nbsp;</p>
-<h4 id="continue-to-sd-preparations-sysnand-cfw"><a href="../sysnand/sd_preparation/">Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i></a></h4></div>
+<h4 id="continue-to-entering-rcm-emunand"><a href="../emummc/entering_rcm/">Continue to Entering RCM (emuNAND) <i class="fa fa-arrow-circle-right fa-lg"></i></a></h4></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-                <p>Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+                <p>Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, forked from the original by the <a href="/switch-guide/about">NH Discord Server</a>. This fork maintained by <a href="https://github.com/Wi-Fi-Labs" target="_blank">PS! Wi-Fi Labs</a>.</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
