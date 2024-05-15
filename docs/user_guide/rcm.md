@@ -9,7 +9,7 @@ RCM (short for ReCovery Mode) is a mode for the switch that allows nintendo to s
 
 ----
 
-### sysNAND CFW  (**Recommended for new users**)
+### sysNAND CFW (**Recommended for new users**)
 
 This is for the people who don't have an 64GB microSD card or larger, or who don't need/want an emuNAND. 
 
